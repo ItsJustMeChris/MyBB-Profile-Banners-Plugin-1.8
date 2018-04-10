@@ -39,7 +39,6 @@ function pbanners_profileStart()
 		eval('$banner  = "' . $templates->get('pbanners_profile_image_template') . '";');
 	}
 	if ($mybb->user['uid'] == $mybb->get_input('uid',1)) {
-		echo "TEST";
 		eval('$form  = "' . $templates->get('pbanners_profile_form_template') . '";');
 	}
 }
