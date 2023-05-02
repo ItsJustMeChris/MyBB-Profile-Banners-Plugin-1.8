@@ -97,7 +97,7 @@ function pbanners_uninstall()
 function pbanners_activate()
 {
 	global $db;
-  $imageTemplate = '<img id=profileBanner src={$profile_banner_url}/>';
+  $imageTemplate = '<img id=profileBanner src={$profile_banner_url}>';
 	$formTemplate = '<div id="profileBannerBannerChange">Changer'. "\n".
 	'  <form action="misc.php" method="post" id="bannerForm">'."\n".
 	'    Banner URL: <input type="text" name="bannerURL"><br>'."\n".
